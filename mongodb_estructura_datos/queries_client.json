@@ -1,0 +1,13 @@
+// When a client is logged in the eCommerce website and clicks on "My account" : LEFT iframe / RIGHT iframe
+
+/*
+LEFT iframe (el usuario es el correo electrónico):
+De la dirección mostramos sólo la calle
+*/
+db.clients.find({client_email : "frankpulido@me.com"}, {client_name:1, client_address : {street_address:1}, client_cellphone:1, client_email:1, client_registered:1, _id:0})
+
+/*
+RIGHT iframe (el usuario es el correo electrónico):
+Queremos ver el detalle de compras completo en ventana tipo scroll
+*/
+db.clients.find({client_email : "frankpulido@gme.com"}, {last_shoppings:1, _id:0})

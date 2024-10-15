@@ -1,0 +1,38 @@
+db.glassesframes.insertMany(
+[{
+    "brand": "Rayban",
+    "frame_type": "acetate",
+    "frame_colour": "black",
+    "colourLglass": "ambar",
+    "colourRglass": "ambar",
+    "supplier_name": "Barcelona Best Glasses",
+    "price_supplier": 80.00
+},
+{
+    "brand": "Kuboraum",
+    "frame_type": "acetate",
+    "frame_colour": "blue",
+    "colourLglass": "none",
+    "colourRglass": "none",
+    "supplier_name": "Berlin Eyeware",
+    "price_supplier": 105.50
+},
+{
+    "brand": "Etnia",
+    "frame_type": "metallic",
+    "frame_colour": "space grey",
+    "colourLglass": "blue",
+    "colourRglass": "blue",
+    "supplier_name": "Barcelona Best Glasses",
+    "price_supplier": 70.25
+},
+{
+    "brand": "Rayban",
+    "frame_type": "acetate",
+    "frame_colour": "blue",
+    "colourLglass": "grey",
+    "colourRglass": "grey",
+    "supplier_name": "Barcelona Best Glasses",
+    "price_supplier": 50.30
+}
+])

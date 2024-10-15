@@ -1,0 +1,13 @@
+// Search made by an employee about sales of a given brand : LEFT iframe / RIGHT iframe
+
+/*
+LEFT iframe (search by brand): ON-CLICK a popup window showing suppliers details
+2 queries on LEFT : first product, second supplier details
+*/
+db.glassesframes.find({brand : "Rayban"}, {brand:1, frame_type:1, suppier_name:1, supplier_name:1, price_supplier:1, _id:0})
+db.suppliers.find({supplier_brands : "Rayban"}, {_id:0})
+/*
+RIGHT iframe (search by client):
+Show ALL clients who have bought specific brand + specific ENUM frame
+*/
+db.clients.find({last_shoppings : {$elemMatch : {brand : "Rayban", frame_type : "acetate"}}}, {client_name:1, _id:0})
