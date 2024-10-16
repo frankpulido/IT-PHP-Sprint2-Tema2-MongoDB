@@ -6,7 +6,7 @@ db.glassesframes.insertMany(
     "colourLglass": "ambar",
     "colourRglass": "ambar",
     "supplier_name": "Barcelona Best Glasses",
-    "price_supplier": 80.00
+    "price_supplier": 80.50
 },
 {
     "brand": "Kuboraum",

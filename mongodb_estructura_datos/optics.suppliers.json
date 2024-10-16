@@ -5,7 +5,7 @@ db.suppliers.insertMany(
     "supplier_phone": "+934567687",
     "supplier_email": "comercial@bestglasses.com",
     "supplier_tax_id": "B63531594",
-    "supplier_brands": ["Etnia", "Rayban"],
+    "supplier_brands": ["Etnia", "Rayban"]
 },
 {
     "supplier_name": "Berlin Eyeware",
@@ -13,6 +13,6 @@ db.suppliers.insertMany(
     "supplier_phone": "+497867890",
     "supplier_email": "frames@kuboraum.com",
     "supplier_tax_id": "Z76934674",
-    "supplier_brands": ["Kuboraum"],
+    "supplier_brands": ["Kuboraum"]
 }
 ])

@@ -6,12 +6,8 @@ db.clients.insertMany(
   "client_email": "frankpulido@me.com",
   "client_graduationL": 2.4,
   "client_graduationR": 2.3,
-  "client_last_graduation_exam": {
-    "$date": "2024-07-01T11:05:03.000Z"
-  },
-  "client_registered": {
-    "$date": "2020-01-05T05:28:20.701Z"
-  },
+  "client_last_graduation_exam": new Date("2024-07-01T11:05:03.000Z"),
+  "client_registered": new Date("2020-01-05T05:28:20.701Z"),
   "last_shoppings": [
     {
       "brand": "Rayban",
@@ -21,10 +17,8 @@ db.clients.insertMany(
       "colourRglass": "ambar",
       "graduationL": 2.3,
       "graduationR": 2.1,
-      "price": 120,
-      "orderDate": {
-        "$date": "2020-01-05T05:28:20.701Z"
-      }
+      "price": 120.00,
+      "orderDate": new Date("2020-01-05T05:28:20.701Z")
     },
     {
       "brand": "Kuboraum",
@@ -34,10 +28,8 @@ db.clients.insertMany(
       "colourRglass": "none",
       "graduationL": 2.4,
       "graduationR": 2.3,
-      "price": 180,
-      "orderDate": {
-        "$date": "2024-07-01T11:05:03.000Z"
-      }
+      "price": 180.00,
+      "orderDate": new Date("2024-07-01T11:05:03.000Z")
     }
   ]
 },
@@ -51,9 +43,7 @@ db.clients.insertMany(
   "client_last_graduation_exam": {
     "$date": "2023-09-27T05:30:00.927Z"
   },
-  "client_registered": {
-    "$date": "2023-09-27T05:30:00.927Z"
-  },
+  "client_registered": new Date("2023-09-27T05:30:00.927Z"),
   "last_shoppings": [
     {
       "brand": "Etnia",
@@ -63,10 +53,8 @@ db.clients.insertMany(
       "colourRglass": "blue",
       "graduationL": 1.5,
       "graduationR": 1.7,
-      "price": 145,
-      "orderDate": {
-        "$date": "2023-09-27T05:30:00.927Z"
-      }
+      "price": 145.00,
+      "orderDate": new Date("2023-09-27T05:30:00.927Z")
     }
   ]
 },
@@ -75,9 +63,7 @@ db.clients.insertMany(
   "client_address": {"postal_code": "08028", "country": "Spain"},
   "client_cellphone": "+34654456321",
   "client_email": "ruben@gmail.com",
-  "client_registered": {
-    "$date": "2020-05-18T14:10:30.000Z"
-  },
+  "client_registered": new Date("2020-05-18T14:10:30.000Z"),
   "last_shoppings": [
     {
       "brand": "Rayban",
@@ -85,10 +71,8 @@ db.clients.insertMany(
       "frame_colour": "blue",
       "colourLglass": "grey",
       "colourRglass": "grey",
-      "price": 147.5,
-      "orderDate": {
-        "$date": "2020-05-18T14:10:30.000Z"
-      }
+      "price": 147.50,
+      "orderDate": new Date("2020-05-18T14:10:30.000Z")
     }
   ]
 }]
