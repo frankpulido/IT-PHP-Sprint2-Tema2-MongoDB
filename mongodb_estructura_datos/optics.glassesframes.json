@@ -6,7 +6,7 @@ db.glassesframes.insertMany(
     "colourLglass": "ambar",
     "colourRglass": "ambar",
     "supplier_name": "Barcelona Best Glasses",
-    "price_supplier": 80.50
+    "price_supplier": NumberDecimal("80.50")
 },
 {
     "brand": "Kuboraum",
@@ -15,7 +15,7 @@ db.glassesframes.insertMany(
     "colourLglass": "none",
     "colourRglass": "none",
     "supplier_name": "Berlin Eyeware",
-    "price_supplier": 105.50
+    "price_supplier": NumberDecimal("105.00")
 },
 {
     "brand": "Etnia",
@@ -24,7 +24,7 @@ db.glassesframes.insertMany(
     "colourLglass": "blue",
     "colourRglass": "blue",
     "supplier_name": "Barcelona Best Glasses",
-    "price_supplier": 70.25
+    "price_supplier": NumberDecimal("70.25")
 },
 {
     "brand": "Rayban",
@@ -33,6 +33,6 @@ db.glassesframes.insertMany(
     "colourLglass": "grey",
     "colourRglass": "grey",
     "supplier_name": "Barcelona Best Glasses",
-    "price_supplier": 50.30
+    "price_supplier": NumberDecimal("50.00")
 }
 ])
