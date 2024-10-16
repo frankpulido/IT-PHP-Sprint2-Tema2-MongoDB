@@ -17,7 +17,7 @@ db.clients.insertMany(
       "colourRglass": "ambar",
       "graduationL": 2.3,
       "graduationR": 2.1,
-      "price": 120.00,
+      "price": 120.50,
       "orderDate": new Date("2020-01-05T05:28:20.701Z")
     },
     {
@@ -28,7 +28,7 @@ db.clients.insertMany(
       "colourRglass": "none",
       "graduationL": 2.4,
       "graduationR": 2.3,
-      "price": 180.00,
+      "price": 180.75,
       "orderDate": new Date("2024-07-01T11:05:03.000Z")
     }
   ]
@@ -40,9 +40,7 @@ db.clients.insertMany(
   "client_email": "laura@gmail.com",
   "client_graduationL": 1.5,
   "client_graduationR": 1.7,
-  "client_last_graduation_exam": {
-    "$date": "2023-09-27T05:30:00.927Z"
-  },
+  "client_last_graduation_exam": new Date("2023-09-27T05:30:00.927Z"),
   "client_registered": new Date("2023-09-27T05:30:00.927Z"),
   "last_shoppings": [
     {
@@ -53,7 +51,7 @@ db.clients.insertMany(
       "colourRglass": "blue",
       "graduationL": 1.5,
       "graduationR": 1.7,
-      "price": 145.00,
+      "price": 145.15,
       "orderDate": new Date("2023-09-27T05:30:00.927Z")
     }
   ]
