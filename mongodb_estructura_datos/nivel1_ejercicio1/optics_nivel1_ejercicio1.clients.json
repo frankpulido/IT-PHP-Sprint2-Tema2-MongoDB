@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "675f101f5ce780c8436309c4"
+  },
+  "client_name": "Frank",
+  "client_address": {
+    "street_address": "Riverside Drive 20",
+    "floor_and_apartment": "1-1",
+    "borough": "Manhattan",
+    "postal_code": "08036",
+    "country": "USA"
+  },
+  "client_cellphone": "+34653343353",
+  "client_email": "frankpulido@me.com",
+  "client_graduationL": {
+    "$numberDecimal": "2.4"
+  },
+  "client_graduationR": {
+    "$numberDecimal": "2.3"
+  },
+  "client_last_graduation_exam": {
+    "$date": "2024-07-01T11:05:03.000Z"
+  },
+  "client_registered": {
+    "$date": "2020-01-05T05:28:20.701Z"
+  },
+  "last_shoppings": [
+    {
+      "glassframe_id": {
+        "$oid": "675f07375b6c5069316a1dab"
+      },
+      "graduationL": {
+        "$numberDecimal": "2.3"
+      },
+      "graduationR": {
+        "$numberDecimal": "2.1"
+      },
+      "price": {
+        "$numberDecimal": "120.50"
+      },
+      "soldBy": {
+        "$oid": "675f08418ff4bfcc7a939c4d"
+      },
+      "orderDate": {
+        "$date": "2020-01-05T05:28:20.701Z"
+      }
+    },
+    {
+      "glassframe_id": {
+        "$oid": "675f07375b6c5069316a1dac"
+      },
+      "graduationL": {
+        "$numberDecimal": "2.4"
+      },
+      "graduationR": {
+        "$numberDecimal": "2.3"
+      },
+      "price": {
+        "$numberDecimal": "180.00"
+      },
+      "soldBy": {
+        "$oid": "675f08418ff4bfcc7a939c4e"
+      },
+      "orderDate": {
+        "$date": "2024-07-01T11:05:03.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675f10c85ce780c8436309c5"
+  },
+  "client_name": "Laura",
+  "client_address": {
+    "postal_code": "08002",
+    "country": "Spain"
+  },
+  "client_cellphone": "+34677389143",
+  "client_email": "laura@gmail.com",
+  "client_referred_by": {
+    "$oid": "675f101f5ce780c8436309c4"
+  },
+  "client_graduationL": {
+    "$numberDecimal": "1.5"
+  },
+  "client_graduationR": {
+    "$numberDecimal": "1.7"
+  },
+  "client_last_graduation_exam": {
+    "$date": "2023-09-27T05:30:00.927Z"
+  },
+  "client_registered": {
+    "$date": "2023-09-27T05:30:00.927Z"
+  },
+  "last_shoppings": [
+    {
+      "glassframe_id": {
+        "$oid": "675f07375b6c5069316a1dad"
+      },
+      "graduationL": {
+        "$numberDecimal": "1.5"
+      },
+      "graduationR": {
+        "$numberDecimal": "1.7"
+      },
+      "price": {
+        "$numberDecimal": "145.00"
+      },
+      "soldBy": {
+        "$oid": "675f08418ff4bfcc7a939c4e"
+      },
+      "orderDate": {
+        "$date": "2023-09-27T05:30:00.927Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675f113c5ce780c8436309c6"
+  },
+  "client_name": "Rubén",
+  "client_address": {
+    "postal_code": "08028",
+    "country": "Spain"
+  },
+  "client_cellphone": "+34654456321",
+  "client_email": "ruben@gmail.com",
+  "client_referred_by": {
+    "$oid": "675f10c85ce780c8436309c5"
+  },
+  "client_registered": {
+    "$date": "2020-05-18T14:10:30.000Z"
+  },
+  "last_shoppings": [
+    {
+      "glassframe_id": {
+        "$oid": "675f07375b6c5069316a1dae"
+      },
+      "price": {
+        "$numberDecimal": "147.50"
+      },
+      "soldBy": {
+        "$oid": "675f08418ff4bfcc7a939c4d"
+      },
+      "orderDate": {
+        "$date": "2020-05-18T14:10:30.000Z"
+      }
+    }
+  ]
+}]

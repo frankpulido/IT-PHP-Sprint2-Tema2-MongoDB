@@ -1,0 +1,158 @@
+[{
+  "_id": {
+    "$oid": "675f216ecd4816c247d4a6eb"
+  },
+  "brand": "Rayban",
+  "frame_type": "acetate",
+  "frame_colour": "black",
+  "colourLglass": "ambar",
+  "colourRglass": "ambar",
+  "supplier_id": {
+    "$oid": "675f19d7110c12c1f799297a"
+  },
+  "price_actual": {
+    "$numberDecimal": "135.50"
+  },
+  "price_supplier": {
+    "$numberDecimal": "80.50"
+  },
+  "last_sales": [
+    {
+      "client_id": {
+        "$oid": "675f1fd0b8142da8b99fd543"
+      },
+      "graduationL": {
+        "$numberDecimal": "2.3"
+      },
+      "graduationR": {
+        "$numberDecimal": "2.1"
+      },
+      "price_sold": {
+        "$numberDecimal": "120.50"
+      },
+      "soldBy": {
+        "$oid": "675f1a928ad56074752144a7"
+      },
+      "orderDate": {
+        "$date": "2020-01-05T05:28:20.701Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675f216ecd4816c247d4a6ec"
+  },
+  "brand": "Kuboraum",
+  "frame_type": "acetate",
+  "frame_colour": "blue",
+  "colourLglass": "none",
+  "colourRglass": "none",
+  "supplier_id": {
+    "$oid": "675f19d7110c12c1f799297b"
+  },
+  "price_actual": {
+    "$numberDecimal": "195.50"
+  },
+  "price_supplier": {
+    "$numberDecimal": "105.00"
+  },
+  "last_sales": [
+    {
+      "client_id": {
+        "$oid": "675f1fd0b8142da8b99fd543"
+      },
+      "graduationL": {
+        "$numberDecimal": "2.4"
+      },
+      "graduationR": {
+        "$numberDecimal": "2.3"
+      },
+      "price_sold": {
+        "$numberDecimal": "180.00"
+      },
+      "soldBy": {
+        "$oid": "675f1a928ad56074752144a8"
+      },
+      "orderDate": {
+        "$date": "2024-07-01T11:05:03.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675f216ecd4816c247d4a6ed"
+  },
+  "brand": "Etnia",
+  "frame_type": "metallic",
+  "frame_colour": "space grey",
+  "colourLglass": "blue",
+  "colourRglass": "blue",
+  "supplier_id": {
+    "$oid": "675f19d7110c12c1f799297a"
+  },
+  "price_actual": {
+    "$numberDecimal": "158.50"
+  },
+  "price_supplier": {
+    "$numberDecimal": "70.25"
+  },
+  "last_sales": [
+    {
+      "client_id": {
+        "$oid": "675f2012b8142da8b99fd544"
+      },
+      "graduationL": {
+        "$numberDecimal": "1.5"
+      },
+      "graduationR": {
+        "$numberDecimal": "1.7"
+      },
+      "price_sold": {
+        "$numberDecimal": "145.00"
+      },
+      "soldBy": {
+        "$oid": "675f1a928ad56074752144a8"
+      },
+      "orderDate": {
+        "$date": "2023-09-27T05:30:00.927Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "675f216ecd4816c247d4a6ee"
+  },
+  "brand": "Rayban",
+  "frame_type": "acetate",
+  "frame_colour": "blue",
+  "colourLglass": "grey",
+  "colourRglass": "grey",
+  "supplier_id": {
+    "$oid": "675f19d7110c12c1f799297a"
+  },
+  "price_actual": {
+    "$numberDecimal": "177.95"
+  },
+  "price_supplier": {
+    "$numberDecimal": "50.00"
+  },
+  "last_sales": [
+    {
+      "client_id": {
+        "$oid": "675f2045b8142da8b99fd545"
+      },
+      "price_sold": {
+        "$numberDecimal": "147.50"
+      },
+      "soldBy": {
+        "$oid": "675f1a928ad56074752144a7"
+      },
+      "orderDate": {
+        "$date": "2020-05-18T14:10:30.000Z"
+      }
+    }
+  ]
+}]

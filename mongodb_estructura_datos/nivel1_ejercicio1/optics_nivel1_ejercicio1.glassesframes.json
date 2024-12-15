@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "675f07375b6c5069316a1dab"
+  },
+  "brand": "Rayban",
+  "frame_type": "acetate",
+  "frame_colour": "black",
+  "colourLglass": "ambar",
+  "colourRglass": "ambar",
+  "supplier_id": {
+    "$oid": "675f0494c49aefe8014585b7"
+  },
+  "price_supplier": {
+    "$numberDecimal": "80.50"
+  },
+  "price_actual": {
+    "$numberDecimal": "135.50"
+  }
+},
+{
+  "_id": {
+    "$oid": "675f07375b6c5069316a1dac"
+  },
+  "brand": "Kuboraum",
+  "frame_type": "acetate",
+  "frame_colour": "blue",
+  "colourLglass": "none",
+  "colourRglass": "none",
+  "supplier_id": {
+    "$oid": "675f0494c49aefe8014585b8"
+  },
+  "price_supplier": {
+    "$numberDecimal": "105.00"
+  },
+  "price_actual": {
+    "$numberDecimal": "195.5"
+  }
+},
+{
+  "_id": {
+    "$oid": "675f07375b6c5069316a1dad"
+  },
+  "brand": "Etnia",
+  "frame_type": "metallic",
+  "frame_colour": "space grey",
+  "colourLglass": "blue",
+  "colourRglass": "blue",
+  "supplier_id": {
+    "$oid": "675f0494c49aefe8014585b7"
+  },
+  "price_supplier": {
+    "$numberDecimal": "70.25"
+  },
+  "price_actual": {
+    "$numberDecimal": "158.50"
+  }
+},
+{
+  "_id": {
+    "$oid": "675f07375b6c5069316a1dae"
+  },
+  "brand": "Rayban",
+  "frame_type": "acetate",
+  "frame_colour": "blue",
+  "colourLglass": "grey",
+  "colourRglass": "grey",
+  "supplier_id": {
+    "$oid": "675f0494c49aefe8014585b7"
+  },
+  "price_supplier": {
+    "$numberDecimal": "50.00"
+  },
+  "price_actual": {
+    "$numberDecimal": "177.95"
+  }
+}]
