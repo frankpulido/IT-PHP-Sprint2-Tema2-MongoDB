@@ -1,0 +1,14 @@
+db.suppliers.findOne(
+  { _id: ObjectId("675f19d7110c12c1f799297b") }
+);
+
+/*
+Controller Method showGlassframe (Request $request) renders the View.
+Search value above is retrieved by query : query_get_glassframe_data.json ('supplier_id')
+Show View receives :
+- $glassframe : Glassframe Info
+- $supplier_id : A second variable with Supplier Id
+This second variable can be passed to the other controller method.
+*/
+
+// When clicking on INFO SUPPLIER, method showSupplier uses the query above and renders the pop-up view

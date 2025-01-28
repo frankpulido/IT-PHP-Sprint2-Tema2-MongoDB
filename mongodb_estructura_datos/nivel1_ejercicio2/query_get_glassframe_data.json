@@ -1,0 +1,17 @@
+// ALL glassframe data
+db.glassframes.findOne(
+  { _id: ObjectId("675f216ecd4816c247d4a6ec") }
+);
+// Just the 'supplier_id'
+db.glassframes.findOne(
+  { _id: ObjectId("675f216ecd4816c247d4a6ec") },
+  { "supplier_id": 1, "_id": 0 }
+);
+
+// The outcome will be use for query : query_get_supplier_glassframe.json
+/*
+Outcome first query : All glassframe data to display (including 'supplier_id')
+Outcome second query below :
+{
+"supplier_id":{"$oid":"675f19d7110c12c1f799297b"}
+}

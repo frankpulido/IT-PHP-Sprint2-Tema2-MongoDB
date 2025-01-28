@@ -1,0 +1,53 @@
+db.glassesframes.findOne(
+    { _id: ObjectId("675f216ecd4816c247d4a6ec") },
+    { "last_sales.client_id": 1 }
+);
+
+// Query above returns an array of buyers : 675f216ecd4816c247d4a6ec is the glassframe id selected for the view
+// Result will be sent among the request variables
+
+// AGGREGATE to retrieve ALL id's and names of BUYERS of the glassframe (4 stages):
+
+db.glassesframes.aggregate([
+    {
+      $match: { _id: ObjectId("675f216ecd4816c247d4a6ec") }
+    },
+    {
+      $unwind: "last_sales"  // Unwind the array to work with individual elements
+    },
+    {
+      $lookup: {
+        from: "clients",  // The collection to join with
+        localField: "last_sales.client_id",  // Field in `glassesframes` to match
+        foreignField: "_id",  // Field in `clients` to match
+        as: "client_data"  // Name of the resulting field containing joined data
+      }
+    },
+    {
+      $project: {
+        "client_name": { $arrayElemAt: ["$client_data.client_name", 0] },  // Extract client name from the array
+        "last_sales.client_id": 1  // Include client_id from the `last_sales`
+      }
+    }
+]);
+
+// PENDENT 1/2 : CREATE A VIEW THAT WORKS FOR ANY GLASSFRAME ID
+db.createView("glassframe_buyers", "glassesframes", [
+  { $unwind: "$last_sales" },
+  { $lookup: {
+      from: "clients",
+      localField: "last_sales.client_id",
+      foreignField: "_id",
+      as: "client_data"
+    }
+  },
+  { $project: {
+      "client_name": { $arrayElemAt: ["$client_data.name", 0] },
+      "last_sales.client_id": 1
+    }
+  }
+]);
+// PENDENT 2/2 : QUERY THE VIEW
+db.glassframe_buyers.find({ _id: ObjectId("place-chosen-glassframe-id-here") });
+
+
